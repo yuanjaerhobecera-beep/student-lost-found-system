@@ -1,0 +1,15 @@
+# Installed packages (can be re-downloaded with npm install)
+node_modules/
+
+# Secret environment variables - NEVER upload these
+.env
+.env.*
+!.env.example
+
+# Uploaded images (local development storage)
+uploads/*
+!uploads/.gitkeep
+
+# Log files
+logs/
+*.log
